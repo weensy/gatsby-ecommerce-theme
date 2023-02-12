@@ -31,13 +31,13 @@ const IndexPage = () => {
         maxWidth={'500px'}
         image={'/banner1.png'}
         title={'Essentials for a cold winter'}
-        subtitle={'Discover Autumn Winter 2021'}
+        subtitle={'Discover Autumn Winter 2022'}
         ctaText={'shop now'}
         ctaAction={goToShop}
       />
 
       {/* Message Container */}
-      <div className={styles.messageContainer}>
+      {/* <div className={styles.messageContainer}>
         <p>
           This is a demonstration of the Sydney theme for verse by{' '}
           <span className={styles.gold}>matter design.</span>
@@ -46,7 +46,7 @@ const IndexPage = () => {
           wear by <span className={styles.gold}>sunspel</span> and{' '}
           <span className={styles.gold}>scotch&soda</span>
         </p>
-      </div>
+      </div> */}
 
       {/* Collection Container */}
       <div className={styles.collectionContainer}>

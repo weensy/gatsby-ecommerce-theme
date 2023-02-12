@@ -30,7 +30,7 @@ const MiniCart = (props) => {
           <div className={styles.totalContainer}>
             <span>Total (USD)</span>
             <span>
-              <CurrencyFormatter amount={220} appendZero />
+              <CurrencyFormatter amount={0} appendZero />
             </span>
           </div>
           <span className={styles.taxNotes}>

@@ -23,7 +23,7 @@ const MiniCart = (props) => {
         <h4>My Bag</h4>
       </div>
       <div className={styles.cartItemsContainer}>
-        <MiniCartItem {...sampleCartItem} />
+        {/* <MiniCartItem {...sampleCartItem} /> */}
       </div>
       <div className={styles.summaryContainer}>
         <div className={styles.summaryContent}>

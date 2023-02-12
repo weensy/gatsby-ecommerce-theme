@@ -151,9 +151,9 @@ const Header = (prop) => {
               }}
             >
               <Icon symbol={'bag'}></Icon>
-              <div className={styles.bagNotification}>
-                {/* <span>1</span> */}
-              </div>
+              {/*<div className={styles.bagNotification}>
+                 <span>1</span> 
+              </div>*/}
             </button>
             <div className={styles.notificationContainer}>
               <AddNotification openCart={() => setShowMiniCart(true)} />
